@@ -6,7 +6,6 @@ import com.melihovs.nims_spele.services.GraphNode;
 import com.melihovs.nims_spele.services.Level;
 import org.springframework.stereotype.Controller;
 
-import java.util.List;
 
 @Controller
 public class NimsViewController {

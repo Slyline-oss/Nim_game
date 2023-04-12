@@ -140,12 +140,12 @@ public class NimsView extends VerticalLayout {
     private void endGame(GraphNode node) {
         Notification not = new Notification();
         if (node.getLevel() == Level.MAX) {
-            not.setText("Jūs uzvarējāt!");
+            not.setText("Jūs uzvārējāt!");
             not.setDuration(5000);
             not.setPosition(Notification.Position.MIDDLE);
             not.addThemeVariants(NotificationVariant.LUMO_SUCCESS);
         } else {
-            not.setText("Dators uzvarējā!");
+            not.setText("Dators uzvārēja!");
             not.setDuration(5000);
             not.setPosition(Notification.Position.MIDDLE);
             not.addThemeVariants(NotificationVariant.LUMO_ERROR);
